@@ -99,3 +99,31 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.grey {
+  background: #f7f7f9;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.hero.small {
+  height: 50vh;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+}
